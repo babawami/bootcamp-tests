@@ -3,6 +3,6 @@ describe('yearsAgo',function(){
     assert.equal(yearsAgo("2006"),12);
   });
   it( 'It should not take anything besides year captured', function(){
-    assert.equal(yearsAgo("1988-10-12"),30);
+    assert.equal(yearsAgo("1988"),30);
   });
 });
